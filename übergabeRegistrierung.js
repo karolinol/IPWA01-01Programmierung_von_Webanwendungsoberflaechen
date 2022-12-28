@@ -9,12 +9,12 @@ function formularWeiter(event) {
 
     if(formularDatenObjekt.get("übergabeWählen") == 1) {
         console.log("Sie übergeben die Spende an der Geschäftsstelle");
-        var v_link = "registrierungGeschäftsstelle.html";
-        window.open(v_link);
+        var link = "registrierungGeschäftsstelle.html";
+        window.open(link);
     }
     else if(formularDatenObjekt.get("übergabeWählen")== 2) {
         console.log("Sie wünschen eine Abholung");
-        var v_link = "registrierungSammelfahrzeug.html";
-        window.open(v_link);
+        var link = "registrierungSammelfahrzeug.html";
+        window.open(link);
     }
 }
